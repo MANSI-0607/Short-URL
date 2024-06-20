@@ -1,0 +1,76 @@
+/* Signup.css */
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .formdiv {
+    display: flex;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f0f0f0;
+  }
+
+  form {
+    
+    max-width: 400px;
+    width: 100%;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #f9f9f9;
+  }
+
+div {
+    margin-bottom: 1em;
+  }
+  
+  label {
+    margin-bottom: .5em;
+    font-weight: 500;
+    color: #333333;
+    display: block;
+  }
+  
+  input {
+    border: 1px solid #CCCCCC;
+    padding: .5em;
+    font-size: 1em;
+   width: 100%;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 0.7em;
+    color: #fff;
+    background-color: rgba(13, 171, 45, 0.855);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.875em;
+  }
+  .existing-user{
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .existing-user h3{
+    font-weight: 500;
+    margin: 2px;
+  }
+  .existing-user button{
+    background-color: #007BFF;
+  }
