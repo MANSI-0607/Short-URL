@@ -31,5 +31,18 @@ This project offers two main features:
 1. **Clone the repository:**
 
    ```sh
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/MANSI-0607/Web-Crawler-Short-URL-generator.git
+   cd Web-Crawler-Short-URL-genearator
+   
+2. **Install server dependencies:**
+
+   ```sh
+   cd backend
+   npm install
+   
+1. **Install client dependencies:**
+
+   ```sh
+   cd frontend
+   npm install
+  
