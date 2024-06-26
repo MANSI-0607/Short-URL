@@ -60,7 +60,7 @@ const Login = () => {
           setMessage('Login successful!');
           const token = data.token; // Assuming the token is returned in the response data
           document.cookie = `token=${token}; path=/`; // Set the token in the browser's cookies
-          navigate('/home');// Redirect to homepage or another route
+          navigate('/option');// Redirect to homepage or another route
         } else {
           setMessage(data.error || 'An error occurred');
         }

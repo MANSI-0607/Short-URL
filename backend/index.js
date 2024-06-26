@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 const { connectMongoDb } = require('./connect');
 const urlRoute = require("./routes/url");
 const userRoute = require("./routes/user");
-
+const urlSpider=require("./routes/spider");
 const app = express();
 const port = 8002;
 
@@ -26,5 +26,6 @@ app.use(express.urlencoded({ extended: false }));
 
 app.use("/url",urlRoute);
 app.use("/user", userRoute);
+app.use("/crawl",urlSpider);
 
 app.listen(port, () => console.log(`Server started at port ${port}`));

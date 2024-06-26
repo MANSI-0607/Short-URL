@@ -1,0 +1,27 @@
+/* Report.css */
+
+.report-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .report-list {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+  }
+  
+  .report-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .report-item span {
+    flex: 1;
+  }
+  

@@ -1,0 +1,84 @@
+/* Home.css */
+
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .home-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background: #f0f0f0;
+  }
+  
+  .head {
+    text-align: center;
+    width: 90%;
+    padding: 2em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+  }
+  
+  .head h2 {
+    margin-bottom: 1em;
+  }
+  
+  .head input {
+    padding: 0.5em;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 1em;
+  }
+  
+  .head button {
+    padding: 0.7em 1.5em;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  .head button:hover {
+    background-color: #0056b3;
+  }
+  .heading {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+   
+    padding: 1em;
+    border-bottom: 2px solid #ccc;
+    background: #fff;
+  }
+  
+  .heading h3 {
+    flex: 1;
+    text-align: center;
+    margin: 0;
+    padding: 0 0.5em;
+  }
+  .url-list {
+    width: 92%;
+    
+  }
+  
+  .url-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .url-item span {
+    flex: 1;
+    text-align: center;}

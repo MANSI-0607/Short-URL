@@ -1,0 +1,42 @@
+/* Options.css */
+
+.option {
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+
+  
+  .shorturl-btn,
+  .webcrawler-btn {
+    
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    color: white;
+   
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  .shorturl-btn{
+    background-color: #007bff;
+  }
+  .webcrawler-btn{
+    background-color: #218807;
+  }
+  
+  .shorturl-btn:hover
+   {
+    background-color: #0056b3;
+  }
+  .webcrawler-btn:hover{
+    background-color: #1d7607;
+  }
