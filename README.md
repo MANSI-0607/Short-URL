@@ -32,7 +32,7 @@ This project offers two main features:
 
    ```sh
    git clone https://github.com/MANSI-0607/Web-Crawler-Short-URL-generator.git
-   cd Web-Crawler-Short-URL-genearator
+   cd Web-Crawler-Short-URL-generator
    
 2. **Install server dependencies:**
 
