@@ -24,7 +24,7 @@ This project offers two main features:
 - Node.js
 - Express
 - MongoDB
-- JWT for authentication
+- JWT for authentication and authorization
 
 ## Installation
 
